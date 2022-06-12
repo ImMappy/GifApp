@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import GifApp from './GifApp';
 import './index.css';
-import App from './App';
+import 'animate.css';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GifApp/>
   </React.StrictMode>
 );
 
